@@ -1,6 +1,6 @@
 // App.js
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import { MainLayout } from "./MainLayout";
 import Home from "./components/Home/Home";
 import AllVehicles from "./components/API/AllVehicles";
