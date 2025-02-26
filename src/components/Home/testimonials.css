@@ -1,0 +1,18 @@
+.testimonials {
+  background-image: url(../../assets/landing-page/sec-6/bg-sec6.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  background-origin: border-box;
+  background-size: 1000px;
+  height: auto !important;
+  margin-top: 0;
+  background-color: rgb(248, 251, 255);
+  margin-top: 7rem;
+}
+@media (max-width: 768px) {
+  .testimonials {
+    background-size: 40% !important;
+    background-position: 100% 20%;
+  }
+}

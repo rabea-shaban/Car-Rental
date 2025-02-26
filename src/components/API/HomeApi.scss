@@ -1,0 +1,41 @@
+.popular_btn {
+  background-color: #edf1fa;
+  color: #4a70f8;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  border: 1px solid rgba(21, 114, 211, 0.1019607843);
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+  .page-item {
+    .page-link {
+      font-size: 12px; // تصغير الخط
+      padding: 5px 10px; // تصغير الأزرار
+      border-radius: 5px;
+      color: #333;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #007bff;
+        color: white;
+      }
+    }
+
+    &.active .page-link {
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+.show_all {
+  padding: 0.5rem 3rem !important;
+  font-size: 1.3rem !important;
+  font-weight: 400 !important;
+}

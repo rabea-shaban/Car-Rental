@@ -1,0 +1,82 @@
+.nav-item a {
+  font-size: 20px;
+}
+.home {
+  background: url(../../assets/landing-page/Frame.png);
+  background-repeat: no-repeat;
+  background-size: 35% 90%;
+  background-origin: border-box;
+  background-position: right center;
+  overflow: hidden !important;
+  text-align: center !important;
+}
+.mr-img {
+  margin-top: 100px;
+
+  width: 100%;
+}
+.home .anmtImgTop {
+  animation: carMove 2s forwards ease-out;
+  width: 80%;
+
+  text-align: right !important;
+  object-fit: cover;
+}
+
+@keyframes carMove {
+  0% {
+    transform: translateX(100%) scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(2%) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .anmtImgTop {
+    width: 90% !important;
+  }
+}
+
+.HomeTitle {
+  font-size: 3rem;
+}
+.HomeInfo {
+  animation: _textScaleUp_qhp3o_1 2s forwards;
+  -webkit-animation: _textScaleUp_qhp3o_1 2s forwards;
+  padding: 0 1.9rem;
+  margin-left: 5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 330px;
+  text-align: center;
+  p {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* adjustments for smaller screens */
+  .HomeInfo {
+    margin-top: 20px;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@keyframes _textScaleUp_qhp3o_1 {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,41 @@
+.nav-item a {
+  font-size: 20px;
+}
+.home {
+  background: url(../../assets/landing-page/Frame.png);
+  background-repeat: no-repeat;
+  background-size: 35% 90%;
+  background-origin: border-box;
+  background-position: right center;
+  height: 100vh;
+  overflow: hidden !important;
+}
+.mr-img {
+  margin-top: 100px;
+
+  width: 100%;
+}
+.home .anmtImgTop {
+  animation: carMove 2s forwards ease-out;
+  width: 80%;
+
+  text-align: right !important;
+  object-fit: cover;
+}
+
+@keyframes carMove {
+  0% {
+    transform: translateX(100%) scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(2%) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .anmtImgTop {
+    width: 90% !important;
+  }
+}

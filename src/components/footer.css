@@ -1,0 +1,41 @@
+.footer {
+  background-color: #051c34 !important;
+  padding: 1rem 0;
+}
+.footer .top-left ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 20px;
+  li {
+    margin-bottom: 1rem;
+    a {
+      color: #ffffff;
+      transition: color 0.3s;
+      text-decoration: none;
+      &:hover {
+        color: rgb(128, 128, 133);
+      }
+      img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.our-products {
+  h6 {
+    margin-bottom: 30px;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-top: 30px;
+    &:hover {
+      color: rgb(128, 128, 133);
+    }
+  }
+}

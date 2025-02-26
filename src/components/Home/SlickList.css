@@ -1,0 +1,46 @@
+.SlickList .img {
+  width: 100px !important;
+  height: 100% !important;
+  overflow: hidden;
+  margin: 0;
+  img {
+    width: 100%;
+  }
+}
+.SlickList .swiper-slide {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.SlickList .swiper-slide {
+  transition: transform 1s ease-in-out !important;
+}
+
+.SlickList .swiper-slide img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+}
+
+.SlickList .swiper-slide-active img {
+  transform: scale(1.05); /* تأثير تكبير خفيف */
+}
+.SlickList .swiper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .SlickList .swiper-slide {
+    width: auto; /* السماح للحجم بالتكيف */
+    transition: transform 1s linear !important; /* حركة سلسة */
+  }
+  
+  .SlickList .swiper-slide img {
+  
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .SlickList .swiper-slide-active img {
+    transform: scale(1.05); /* تأثير تكبير خفيف */
+  }
+  
