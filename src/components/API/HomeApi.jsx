@@ -108,7 +108,9 @@ const HomeApi = () => {
                     </div>
                     <div className="col-6 clender">
                       <i className="fa-solid fa-calendar-alt"></i>
-                      <span className="mx-2">{car.car_model_year || "2025"}</span>
+                      <span className="mx-2">
+                        {car.car_model_year || "2025"}
+                      </span>
                     </div>
                     <div className="col-6 Automatic">
                       <i className="fa-solid fa-gauge"></i>
@@ -142,6 +144,17 @@ const HomeApi = () => {
             <h5 className="text-muted">No cars found!</h5>
           </div>
         )}
+      </div>
+      <div className="d-flex justify-content-center align-items-cnter">
+        <a href="/home/all-vehicles">
+          <button
+            type="button"
+            className="btn btn-outline-secondary _show_all_iny2y_2"
+          >
+            Show all vehicles
+            <i className="px-2 fas fa-long-arrow-alt-right"></i>
+          </button>
+        </a>
       </div>
     </div>
   );
